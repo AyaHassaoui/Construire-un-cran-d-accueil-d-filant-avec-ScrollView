@@ -1,6 +1,6 @@
 
 
-# 📱 Labs 3 – Conception d’un écran d’accueil défilant avec ScrollView
+# 📱 Lab 3 – Conception d’un écran d’accueil défilant avec ScrollView
 
 Ce travail pratique a été réalisé avec **React Native** et **Expo Router**.
 Il vise à transformer un écran d’accueil statique en un écran **défilant** à l’aide du composant `ScrollView`.
@@ -94,3 +94,4 @@ L’écran d’accueil est désormais défilant et permet la consultation d’un
 * **Encadrant :** Pr. Mohammed Lechgar
 
 ---
+
