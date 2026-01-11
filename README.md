@@ -1,98 +1,96 @@
 
 
-# 📱 Lab 3 – Écran d’accueil défilant avec ScrollView
+# 📱 Labs 3 – Conception d’un écran d’accueil défilant avec ScrollView
 
-Ce TP a été réalisé avec **React Native** et **Expo Router**.
-Il consiste à transformer un écran d’accueil statique en un écran **scrollable** en utilisant le composant `ScrollView`.
-
----
-
-## 🎯 Objectifs du TP
-
-* Comprendre l’utilisation du composant `ScrollView`.
-* Transformer un écran fixe en écran défilant.
-* Gérer l’affichage d’un **contenu long** dépassant la hauteur de l’écran.
-* Appliquer un **thème sombre** avec une **barre de défilement blanche sur iOS**.
+Ce travail pratique a été réalisé avec **React Native** et **Expo Router**.
+Il vise à transformer un écran d’accueil statique en un écran **défilant** à l’aide du composant `ScrollView`.
 
 ---
 
-## 🗂️ Structure du projet
+## 🎯 Buts pédagogiques
+
+* Maîtriser l’utilisation du composant `ScrollView`.
+* Convertir un écran fixe en écran dynamique avec défilement.
+* Gérer l’affichage de contenus longs dépassant la hauteur de l’écran.
+* Appliquer un thème sombre avec personnalisation de la barre de défilement sur iOS.
+
+---
+
+## 🗂️ Organisation du projet
 
 ```
 app/
- ├── index.tsx        → Écran d’accueil
+ ├── index.tsx        → Écran principal
  ├── _layout.tsx     → Gestion de la navigation
 components/          → Composants réutilisables
 ```
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Mise en place du projet
 
-1. Cloner le projet :
+1. Clonage du dépôt :
 
 ```bash
 git clone https://github.com/ton-compte/premier-componenr-rn.git
 cd premier-componenr-rn
 ```
 
-2. Installer les dépendances :
+2. Installation des dépendances :
 
 ```bash
 npm install
 ```
 
-3. Lancer l’application :
+3. Exécution de l’application :
 
 ```bash
 npx expo start
 ```
 
-Puis ouvrir avec :
+Ouverture possible via :
 
 * Android Emulator
 * iOS Simulator
-* ou l’application **Expo Go**.
+* Application **Expo Go**
 
 ---
 
-## 🧪 Étapes de réalisation
+## 🧪 Démarche de réalisation
 
 Dans le fichier `app/index.tsx` :
 
-* Ajouter un composant `ScrollView`.
-* Afficher :
+* Intégration du composant `ScrollView`.
+* Affichage :
 
-  * Un **titre**.
-  * Un **texte long**.
-* Permettre le **défilement vertical** du contenu.
+  * d’un **titre principal**,
+  * d’un **texte long**.
+* Activation du défilement vertical du contenu.
 
 ---
 
-## 🖼️ Résultat
+## 🖼️ Aperçu du rendu
 
-L’écran d’accueil devient défilant et permet de lire un contenu long sans dépasser la hauteur de l’écran.
+L’écran d’accueil est désormais défilant et permet la consultation d’un contenu étendu.
 
 <img width="1418" height="654" alt="image" src="https://github.com/user-attachments/assets/069022b2-42a4-4e7b-90ee-4aac7479c3fd" />
 
-
 <img width="762" height="719" alt="image" src="https://github.com/user-attachments/assets/d86d697b-5147-4482-a2b9-c3054d1bd6f7" />
-
 
 ---
 
-## ✅ Résultats obtenus
+## ✅ Bilan du TP
 
-* Écran d’accueil scrollable
-* Contenu long lisible verticalement
-* Interface respectant le thème sombre
+* Écran d’accueil avec défilement fonctionnel
+* Lecture fluide de contenus volumineux
+* Interface respectant un thème sombre
 * Barre de défilement blanche sur iOS
 
 ---
 
-## 👩‍💻 Auteur
+## 👩‍💻 Réalisation
 
-* **Réalisé par :** HASSAOUI Aya
-* **Encadré par :** Pr. Mohammed Lechgar
+* **Étudiante :** HASSAOUI Aya
+* **Encadrant :** Pr. Mohammed Lechgar
 
 ---
